@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/satara/Documents/csse232/project/Implementation/beta/work/top_level_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_level_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/top_level_tb/uut/control/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_level_tb/uut/control/async_reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">async_reset</obj_property>
+      <obj_property name="ObjectShortName">async_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="group49" type="group">
+      <obj_property name="label">control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_level_tb/uut/control/PC" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">PC[9:0]</obj_property>
+         <obj_property name="ObjectShortName">PC[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="group126" type="group">
+         <obj_property name="label">INST[15:0]</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="vbus127" type="vbus" db_ref_id="1">
+            <obj_property name="label">IMM</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#5555ff</obj_property>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[11]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[11]</obj_property>
+               <obj_property name="ObjectShortName">INST[11]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[10]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[10]</obj_property>
+               <obj_property name="ObjectShortName">INST[10]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[9]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[9]</obj_property>
+               <obj_property name="ObjectShortName">INST[9]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[8]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[8]</obj_property>
+               <obj_property name="ObjectShortName">INST[8]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[7]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[7]</obj_property>
+               <obj_property name="ObjectShortName">INST[7]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[6]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[6]</obj_property>
+               <obj_property name="ObjectShortName">INST[6]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[5]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[5]</obj_property>
+               <obj_property name="ObjectShortName">INST[5]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[4]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[4]</obj_property>
+               <obj_property name="ObjectShortName">INST[4]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[3]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[3]</obj_property>
+               <obj_property name="ObjectShortName">INST[3]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[2]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[2]</obj_property>
+               <obj_property name="ObjectShortName">INST[2]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[1]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[1]</obj_property>
+               <obj_property name="ObjectShortName">INST[1]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[0]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[0]</obj_property>
+               <obj_property name="ObjectShortName">INST[0]</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="vbus128" type="vbus" db_ref_id="1">
+            <obj_property name="label">OPCODE</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#5555ff</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[15]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[15]</obj_property>
+               <obj_property name="ObjectShortName">INST[15]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[14]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[14]</obj_property>
+               <obj_property name="ObjectShortName">INST[14]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[13]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[13]</obj_property>
+               <obj_property name="ObjectShortName">INST[13]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[12]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[12]</obj_property>
+               <obj_property name="ObjectShortName">INST[12]</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group64" type="group">
+         <obj_property name="label">from_dp</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/top_level_tb/uut/control/STATUS" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">STATUS[2:0]</obj_property>
+            <obj_property name="ObjectShortName">STATUS[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/control/ALUOUT" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">ALUOUT[15:0]</obj_property>
+            <obj_property name="ObjectShortName">ALUOUT[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#ff0000</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group63" type="group">
+         <obj_property name="label">from_stacks</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/top_level_tb/uut/control/rs0" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">rs0[15:0]</obj_property>
+            <obj_property name="ObjectShortName">rs0[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/control/sr0" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">sr0[15:0]</obj_property>
+            <obj_property name="ObjectShortName">sr0[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/control/sr1" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">sr1[15:0]</obj_property>
+            <obj_property name="ObjectShortName">sr1[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/control/ALUOP" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ALUOP[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUOP[2:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ff0000</obj_property>
+      </wvobject>
+      <wvobject fp_name="group63" type="group">
+         <obj_property name="label">data_processor</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/top_level_tb/uut/dp/ALUA" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">ALUA[15:0]</obj_property>
+            <obj_property name="ObjectShortName">ALUA[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#00ffff</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/dp/ALUB" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">ALUB[15:0]</obj_property>
+            <obj_property name="ObjectShortName">ALUB[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#ffa500</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/dp/ALUOUT" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">ALUOUT[15:0]</obj_property>
+            <obj_property name="ObjectShortName">ALUOUT[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#ff0000</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/dp/ALUOP" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">ALUOP[2:0]</obj_property>
+            <obj_property name="ObjectShortName">ALUOP[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/dp/STATUS" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">STATUS[2:0]</obj_property>
+            <obj_property name="ObjectShortName">STATUS[2:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group65" type="group">
+         <obj_property name="label">to_ds</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/top_level_tb/uut/control/ds_data" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">ds_data[15:0]</obj_property>
+            <obj_property name="ObjectShortName">ds_data[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/control/sr1_in" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">sr1_in[15:0]</obj_property>
+            <obj_property name="ObjectShortName">sr1_in[15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/control/sr1_overwrite" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">sr1_overwrite</obj_property>
+            <obj_property name="ObjectShortName">sr1_overwrite</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group66" type="group">
+         <obj_property name="label">to_rs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/top_level_tb/uut/control/RSOP" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">RSOP[3:0]</obj_property>
+            <obj_property name="ObjectShortName">RSOP[3:0]</obj_property>
+            <wvobject fp_name="/top_level_tb/uut/control/RSOP[3]" type="logic" db_ref_id="1">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">[3]</obj_property>
+               <obj_property name="ObjectShortName">RSOP[3]</obj_property>
+               <obj_property name="label">pop</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/RSOP[2]" type="logic" db_ref_id="1">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">[2]</obj_property>
+               <obj_property name="ObjectShortName">RSOP[2]</obj_property>
+               <obj_property name="label">push</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/RSOP[1]" type="logic" db_ref_id="1">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">[1]</obj_property>
+               <obj_property name="ObjectShortName">RSOP[1]</obj_property>
+               <obj_property name="label">write</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/RSOP[0]" type="logic" db_ref_id="1">
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="ElementShortName">[0]</obj_property>
+               <obj_property name="ObjectShortName">RSOP[0]</obj_property>
+               <obj_property name="label">read</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/control/rs_data" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">rs_data[15:0]</obj_property>
+            <obj_property name="ObjectShortName">rs_data[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#00ffff</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/control/current_state" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/control/next_state" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ff00</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group84" type="group">
+      <obj_property name="label">data_stack</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group127" type="group">
+         <obj_property name="label">sr2</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/top_level_tb/uut/ds/\make_stack[2].sr /data_in" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">data_in[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/ds/\make_stack[2].sr /data_in_prev" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">data_in_prev[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_in_prev[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/ds/\make_stack[2].sr /data_in_next" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">data_in_next[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_in_next[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/ds/\make_stack[2].sr /data_out" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#ffa500</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group116" type="group">
+         <obj_property name="label">sr1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/top_level_tb/uut/ds/sr1/data_in" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">data_in[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/ds/sr1/data_in_prev" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">data_in_prev[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_in_prev[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/ds/sr1/data_in_next" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">data_in_next[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_in_next[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/ds/sr1/data_out" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#ffa500</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group105" type="group">
+         <obj_property name="label">sr0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/top_level_tb/uut/ds/sr0/data_in" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">data_in[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/ds/sr0/data_in_prev" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">data_in_prev[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_in_prev[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/ds/sr0/data_in_next" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">data_in_next[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_in_next[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/ds/sr0/data_out" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#ffa500</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/ds/ds_size" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">ds_size[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ds_size[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ff00</obj_property>
+         <obj_property name="label">ds_size[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/ds/DSOP" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">DSOP[3:0]</obj_property>
+         <obj_property name="ObjectShortName">DSOP[3:0]</obj_property>
+         <wvobject fp_name="/top_level_tb/uut/ds/DSOP[3]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[3]</obj_property>
+            <obj_property name="ObjectShortName">DSOP[3]</obj_property>
+            <obj_property name="label">pop</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/ds/DSOP[2]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">DSOP[2]</obj_property>
+            <obj_property name="label">push</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/ds/DSOP[1]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">DSOP[1]</obj_property>
+            <obj_property name="label">write</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/ds/DSOP[0]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">DSOP[0]</obj_property>
+            <obj_property name="label">read</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group90" type="group">
+      <obj_property name="label">return_stack</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_level_tb/uut/rs/size" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">size[15:0]</obj_property>
+         <obj_property name="ObjectShortName">size[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/rs/SOP" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">SOP[3:0]</obj_property>
+         <obj_property name="ObjectShortName">SOP[3:0]</obj_property>
+         <wvobject fp_name="/top_level_tb/uut/rs/SOP[3]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[3]</obj_property>
+            <obj_property name="ObjectShortName">SOP[3]</obj_property>
+            <obj_property name="label">pop</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/rs/SOP[2]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">SOP[2]</obj_property>
+            <obj_property name="label">push</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/rs/SOP[1]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">SOP[1]</obj_property>
+            <obj_property name="label">write</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/rs/SOP[0]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">SOP[0]</obj_property>
+            <obj_property name="label">read</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group2154" type="group">
+         <obj_property name="label">reg0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/top_level_tb/uut/rs/reg0/data_in" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">data_in[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/rs/reg0/data_out" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group2166" type="group">
+         <obj_property name="label">reg1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/top_level_tb/uut/rs/reg1/data_in_prev" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">data_in_prev[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_in_prev[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/rs/reg1/data_in_next" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">data_in_next[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_in_next[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/rs/reg1/data_out" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group2178" type="group">
+         <obj_property name="label">reg2</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/top_level_tb/uut/rs/\make_stack[2].regs /data_in_prev" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">data_in_prev[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_in_prev[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/rs/\make_stack[2].regs /data_in_next" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">data_in_next[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_in_next[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/rs/\make_stack[2].regs /data_out" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+            <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group91" type="group">
+      <obj_property name="label">mem_stack</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_level_tb/uut/ms/wea" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wea[0:0]</obj_property>
+         <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/ms/addra" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">addra[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addra[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/ms/dina" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">dina[15:0]</obj_property>
+         <obj_property name="ObjectShortName">dina[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/ms/douta" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">douta[15:0]</obj_property>
+         <obj_property name="ObjectShortName">douta[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

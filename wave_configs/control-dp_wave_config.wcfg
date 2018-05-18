@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/satara/Documents/csse232/project/Implementation/beta/work/control_dp_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="control_dp_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/control_dp_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_dp_tb/async_reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">async_reset</obj_property>
+      <obj_property name="ObjectShortName">async_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_dp_tb/INST" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">INST[15:0]</obj_property>
+      <obj_property name="ObjectShortName">INST[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_dp_tb/uut/control/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_dp_tb/uut/control/async_reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">async_reset</obj_property>
+      <obj_property name="ObjectShortName">async_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_dp_tb/uut/control/STATUS" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">STATUS[2:0]</obj_property>
+      <obj_property name="ObjectShortName">STATUS[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group42" type="group">
+      <obj_property name="label">unimplemented</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/control_dp_tb/uut/control/sr0" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sr0[15:0]</obj_property>
+         <obj_property name="ObjectShortName">sr0[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/control_dp_tb/uut/control/sr1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sr1[15:0]</obj_property>
+         <obj_property name="ObjectShortName">sr1[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/control_dp_tb/uut/control/rs0" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rs0[15:0]</obj_property>
+         <obj_property name="ObjectShortName">rs0[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/control_dp_tb/uut/control/mem_data" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">mem_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_data[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/control_dp_tb/uut/control/dummy_INST" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dummy_INST[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dummy_INST[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_dp_tb/uut/control/ALUOP" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUOP[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOP[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_dp_tb/uut/control/DSOP" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DSOP[2:0]</obj_property>
+      <obj_property name="ObjectShortName">DSOP[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_dp_tb/uut/control/RSOP" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RSOP[2:0]</obj_property>
+      <obj_property name="ObjectShortName">RSOP[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_dp_tb/uut/control/ds_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ds_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ds_data[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_dp_tb/uut/control/rs_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rs_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rs_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_dp_tb/uut/control/current_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_dp_tb/uut/control/OPCODE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">OPCODE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">OPCODE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_dp_tb/uut/control/PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC[15:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/control_dp_tb/uut/control/next_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group42" type="group">
+      <obj_property name="label">dp</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group43" type="group">
+         <obj_property name="label">unimplemented</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/control_dp_tb/uut/dp/ALUA_src" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">ALUA_src[1:0]</obj_property>
+            <obj_property name="ObjectShortName">ALUA_src[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/control_dp_tb/uut/dp/ALUB_src" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">ALUB_src[1:0]</obj_property>
+            <obj_property name="ObjectShortName">ALUB_src[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/control_dp_tb/uut/dp/sr0" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">sr0[15:0]</obj_property>
+            <obj_property name="ObjectShortName">sr0[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/control_dp_tb/uut/dp/sr1" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">sr1[15:0]</obj_property>
+            <obj_property name="ObjectShortName">sr1[15:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/control_dp_tb/uut/dp/ALUA" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ALUA[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUA[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffa500</obj_property>
+      </wvobject>
+      <wvobject fp_name="/control_dp_tb/uut/dp/ALUB" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ALUB[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUB[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/control_dp_tb/uut/dp/ALUOP" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ALUOP[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUOP[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/control_dp_tb/uut/dp/ALUOUT" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ALUOUT[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUOUT[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/control_dp_tb/uut/dp/STATUS" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">STATUS[2:0]</obj_property>
+         <obj_property name="ObjectShortName">STATUS[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/control_dp_tb/uut/dp/STATUS_int" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">STATUS_int[2:0]</obj_property>
+         <obj_property name="ObjectShortName">STATUS_int[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/control_dp_tb/uut/dp/ALUOUT_int" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ALUOUT_int[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUOUT_int[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

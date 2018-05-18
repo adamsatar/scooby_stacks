@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/satara/Documents/csse232/project/Implementation/beta/scooby_reboot/work/top_level_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_level_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="group36" type="group">
+      <obj_property name="label">control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_level_tb/uut/control/clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/control/async_reset" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">async_reset</obj_property>
+         <obj_property name="ObjectShortName">async_reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/control/PC" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">PC[9:0]</obj_property>
+         <obj_property name="ObjectShortName">PC[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="group74" type="group">
+         <obj_property name="label">INST</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="vbus61" type="vbus" db_ref_id="1">
+            <obj_property name="label">IMM</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[11]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[11]</obj_property>
+               <obj_property name="ObjectShortName">INST[11]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[10]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[10]</obj_property>
+               <obj_property name="ObjectShortName">INST[10]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[9]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[9]</obj_property>
+               <obj_property name="ObjectShortName">INST[9]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[8]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[8]</obj_property>
+               <obj_property name="ObjectShortName">INST[8]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[7]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[7]</obj_property>
+               <obj_property name="ObjectShortName">INST[7]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[6]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[6]</obj_property>
+               <obj_property name="ObjectShortName">INST[6]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[5]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[5]</obj_property>
+               <obj_property name="ObjectShortName">INST[5]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[4]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[4]</obj_property>
+               <obj_property name="ObjectShortName">INST[4]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[3]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[3]</obj_property>
+               <obj_property name="ObjectShortName">INST[3]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[2]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[2]</obj_property>
+               <obj_property name="ObjectShortName">INST[2]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[1]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[1]</obj_property>
+               <obj_property name="ObjectShortName">INST[1]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[0]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[0]</obj_property>
+               <obj_property name="ObjectShortName">INST[0]</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="vbus56" type="vbus" db_ref_id="1">
+            <obj_property name="label">OPCODE</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[15]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[15]</obj_property>
+               <obj_property name="ObjectShortName">INST[15]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[14]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[14]</obj_property>
+               <obj_property name="ObjectShortName">INST[14]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[13]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[13]</obj_property>
+               <obj_property name="ObjectShortName">INST[13]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/top_level_tb/uut/control/INST[12]" type="logic" db_ref_id="1">
+               <obj_property name="ElementShortName">[12]</obj_property>
+               <obj_property name="ObjectShortName">INST[12]</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group39" type="group">
+         <obj_property name="label">dp</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/top_level_tb/uut/control/ALUOP" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">ALUOP[2:0]</obj_property>
+            <obj_property name="ObjectShortName">ALUOP[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/dp/ALUA" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">ALUA[15:0]</obj_property>
+            <obj_property name="ObjectShortName">ALUA[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/dp/ALUB" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">ALUB[15:0]</obj_property>
+            <obj_property name="ObjectShortName">ALUB[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/control/ALUOUT" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">ALUOUT[15:0]</obj_property>
+            <obj_property name="ObjectShortName">ALUOUT[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/control/STATUS" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">STATUS[2:0]</obj_property>
+            <obj_property name="ObjectShortName">STATUS[2:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group38" type="group">
+         <obj_property name="label">rs</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/top_level_tb/uut/control/return_stack_overflow" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">return_stack_overflow</obj_property>
+            <obj_property name="ObjectShortName">return_stack_overflow</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/control/to_rs0" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">to_rs0[15:0]</obj_property>
+            <obj_property name="ObjectShortName">to_rs0[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/control/from_rs0" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">from_rs0[15:0]</obj_property>
+            <obj_property name="ObjectShortName">from_rs0[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/control/RSOP" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">RSOP[3:0]</obj_property>
+            <obj_property name="ObjectShortName">RSOP[3:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group37" type="group">
+         <obj_property name="label">ds</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/top_level_tb/uut/control/data_mem_ptr" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">data_mem_ptr[9:0]</obj_property>
+            <obj_property name="ObjectShortName">data_mem_ptr[9:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/control/data_stack_overflow" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">data_stack_overflow</obj_property>
+            <obj_property name="ObjectShortName">data_stack_overflow</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#ffa500</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/control/DSOP" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">DSOP[3:0]</obj_property>
+            <obj_property name="ObjectShortName">DSOP[3:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/control/sr0_overwrite" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">sr0_overwrite</obj_property>
+            <obj_property name="ObjectShortName">sr0_overwrite</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/control/sr1_overwrite" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">sr1_overwrite</obj_property>
+            <obj_property name="ObjectShortName">sr1_overwrite</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/control/from_sr0" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">from_sr0[15:0]</obj_property>
+            <obj_property name="ObjectShortName">from_sr0[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/control/from_sr1" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">from_sr1[15:0]</obj_property>
+            <obj_property name="ObjectShortName">from_sr1[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/control/to_sr0" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">to_sr0[15:0]</obj_property>
+            <obj_property name="ObjectShortName">to_sr0[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/top_level_tb/uut/control/to_sr1" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">to_sr1[15:0]</obj_property>
+            <obj_property name="ObjectShortName">to_sr1[15:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/control/inst_mem_write_en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">inst_mem_write_en</obj_property>
+         <obj_property name="ObjectShortName">inst_mem_write_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/control/data_mem_write_en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">data_mem_write_en</obj_property>
+         <obj_property name="ObjectShortName">data_mem_write_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/control/current_state" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/control/next_state" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group74" type="group">
+      <obj_property name="label">data_stack</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_level_tb/uut/data_stack/ds_size" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ds_size[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ds_size[15:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffa500</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/data_stack/sr0_in" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sr0_in[15:0]</obj_property>
+         <obj_property name="ObjectShortName">sr0_in[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/data_stack/sr1_in" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sr1_in[15:0]</obj_property>
+         <obj_property name="ObjectShortName">sr1_in[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/data_stack/sr127_in" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sr127_in[15:0]</obj_property>
+         <obj_property name="ObjectShortName">sr127_in[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/data_stack/sr0_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sr0_out[15:0]</obj_property>
+         <obj_property name="ObjectShortName">sr0_out[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/data_stack/sr1_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sr1_out[15:0]</obj_property>
+         <obj_property name="ObjectShortName">sr1_out[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/data_stack/sr127_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sr127_out[15:0]</obj_property>
+         <obj_property name="ObjectShortName">sr127_out[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/data_stack/stack_overflow" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">stack_overflow</obj_property>
+         <obj_property name="ObjectShortName">stack_overflow</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group81" type="group">
+      <obj_property name="label">data_mem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_level_tb/uut/data_mem/clka" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clka</obj_property>
+         <obj_property name="ObjectShortName">clka</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/data_mem/rsta" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rsta</obj_property>
+         <obj_property name="ObjectShortName">rsta</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/data_mem/wea" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">wea[0:0]</obj_property>
+         <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/data_mem/addra" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">addra[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addra[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/data_mem/dina" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">dina[15:0]</obj_property>
+         <obj_property name="ObjectShortName">dina[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_level_tb/uut/data_mem/douta" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">douta[15:0]</obj_property>
+         <obj_property name="ObjectShortName">douta[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,20 @@
+<Folder label="User Templates" language="Verilog" treetype="folder" usernode="true">
+	<Template label="Scooby Stack File Header" treetype="template" usernode="true">////////////////////////////////////////////////////////////////////////////////
+// Course: CSSE220
+// Engineer(s):		 Adam Satar, Frank Lancaster, August Dailey,
+//                    Will McEvoy, Adam Czyzewski
+//			
+// Create Date: &lt;date&gt;
+// Design Name: &lt;name_of_top-level_design&gt;
+// Module Name: &lt;name_of_this_module&gt;
+// Target Device: &lt;target device&gt;
+// Tool versions: &lt;tool_versions&gt;
+// Description:
+//    &lt;Description here&gt;
+// Dependencies:
+//    &lt;Dependencies here&gt;
+// Revision:
+//    &lt;Code_revision_information&gt;
+// Additional Comments:
+//    &lt;Additional_comments&gt;
+////////////////////////////////////////////////////////////////////////////////</Template></Folder>

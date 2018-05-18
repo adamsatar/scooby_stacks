@@ -1,0 +1,16 @@
+# Output products list for <mem_stack>
+_xmsgs/pn_parser.xmsgs
+blk_mem_gen_ds512.pdf
+blk_mem_gen_v6_3_readme.txt
+mem_stack.asy
+mem_stack.gise
+mem_stack.mif
+mem_stack.ngc
+mem_stack.sym
+mem_stack.v
+mem_stack.veo
+mem_stack.xco
+mem_stack.xise
+mem_stack_flist.txt
+mem_stack_xmdf.tcl
+summary.log
